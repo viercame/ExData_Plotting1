@@ -34,10 +34,10 @@ plot4 <- function(){
   
   #(1,2)
   
-  plot(P1_feb2007$FechaTiempo, P1_feb2007$Voltage, type="l", ylab="Voltage", xlab=NA, col="black")
+  plot(P1_feb2007$FechaTiempo, P1_feb2007$Voltage, type="l", ylab="Voltage", xlab="datetime", col="black")
   
   #(2,2)
-  plot(P1_feb2007$FechaTiempo, P1_feb2007$Global_reactive_power, type="l", ylab="Global_reactive_power", xlab=NA, col="black")
+  plot(P1_feb2007$FechaTiempo, P1_feb2007$Global_reactive_power, type="l", ylab="Global_reactive_power", xlab="datetime", col="black")
   
   dev.off()
   
